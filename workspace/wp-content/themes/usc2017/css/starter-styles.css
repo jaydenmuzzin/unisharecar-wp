@@ -1,0 +1,146 @@
+/*--------------------------------------------------------------
+## Starter Styles
+--------------------------------------------------------------*/
+
+/* page */
+body, footer.site-footer {
+	background: #111;
+}
+#page {
+	background: #fff;
+}
+
+
+/* header */
+header.site-header {
+	background: #f4f4f4;
+	padding: 1em 2em;
+	text-align: center;
+}
+@media screen and (min-width: 48em){
+	header.site-header {
+		text-align: left;
+	}
+}
+
+
+.site-branding {
+	width: 150px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.site-branding img,
+.site-branding p,
+.site-branding h1 {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (min-width: 48em){
+	.site-branding {
+		width: 220px;
+		float: left;
+	}
+}
+
+/* navigation */
+nav.main-navigation {
+	/*background: red;*/
+	float: none;
+	text-align: center;
+}
+@media screen and (max-width: 37.5em){
+	nav.main-navigation button {
+		display: inline-block;
+	}
+}
+
+nav.main-navigation li {
+	display: block;
+	float: none;
+	border-bottom: 1px solid #ddd;
+}
+
+nav.main-navigation li:last-child {
+	margin-right: 0;
+}
+
+nav.main-navigation li a {
+	font-size: 1.1em;
+	color: #40ba86;
+	display: block;
+	padding: 0.5em;
+}
+
+nav.main-navigation li a:hover {
+	color: #000;
+}
+
+nav.main-navigation li.current_page_item a {
+	font-weight: bold;
+	color: #000;
+}
+
+@media screen and (min-width: 37.5em){
+	nav.main-navigation {
+
+	}
+
+	nav.main-navigation li {
+		margin: 0 1.2em;
+		float: none;
+		display: inline-block;
+		border-bottom: none;
+	}
+}
+
+@media screen and (min-width: 48em){
+	nav.main-navigation {
+		text-align: left;
+		float: right;
+		width: auto;
+		clear: none;
+		margin-top: 4em;
+
+	}
+}
+
+
+
+/* site content */
+.site-content {
+	padding: 1em;
+}
+
+/* content area */
+
+#primary, #secondary {
+	padding: 1em;
+}
+
+/* sidebar */
+
+.widget-area .widget-title {
+	font-size: 1.1em;
+}
+
+.widget-area ul {
+	margin-left: 1em;
+	padding-left: 0;
+}
+
+
+
+/* footer */
+footer.site-footer {
+	padding: 3em;
+	text-align: center;
+	color: #666;
+	font-size: 0.8em;
+}
+
+footer.site-footer a {
+	color: #666;
+}

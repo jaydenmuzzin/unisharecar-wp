@@ -1,0 +1,15 @@
+[02-Jun-2017 11:23:29 UTC] PHP Fatal error:  Cannot redeclare cars_post_type() (previously declared in /home/ubuntu/workspace/wp-content/themes/usc2017/inc/cpt-cars.php:3) in /home/ubuntu/workspace/wp-content/themes/usc2017/inc/cpt-memberships.php on line 3
+[02-Jun-2017 11:23:29 UTC] PHP Stack trace:
+[02-Jun-2017 11:23:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[02-Jun-2017 11:23:29 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[02-Jun-2017 11:23:29 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[02-Jun-2017 11:23:29 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[02-Jun-2017 11:23:29 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:425
+[02-Jun-2017 11:23:29 UTC] PHP Fatal error:  Cannot redeclare cars_post_type() (previously declared in /home/ubuntu/workspace/wp-content/themes/usc2017/inc/cpt-cars.php:3) in /home/ubuntu/workspace/wp-content/themes/usc2017/inc/cpt-memberships.php on line 3
+[02-Jun-2017 11:23:29 UTC] PHP Stack trace:
+[02-Jun-2017 11:23:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/edit.php:0
+[02-Jun-2017 11:23:29 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/edit.php:10
+[02-Jun-2017 11:23:29 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[02-Jun-2017 11:23:29 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[02-Jun-2017 11:23:29 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[02-Jun-2017 11:23:29 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:425
